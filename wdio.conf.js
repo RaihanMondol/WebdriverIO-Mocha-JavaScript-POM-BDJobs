@@ -21,8 +21,12 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/signUp/**/*.js'
     ],
+    // suite: [
+    //     './test/specs/LoginSuite/**/*.js'
+    // ],
+    
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -141,7 +145,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 600000000
+        timeout: 600000
     },
     //
     // =====
